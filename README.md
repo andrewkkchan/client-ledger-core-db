@@ -2,6 +2,10 @@
 ## What does it do?
 client-ledger-core-db is Part 2 of 3 Part demo of event sourcing over common web/mobile architecture with commoditized software.  This code base relies on MariaDB, which must be installed before running this demo.
 
-##Quick Start
+## Quick Start
+### Step 1
+Log in MariaDB to show the database command line tool.
+'''mysql -u username -p password
+'''
 
 
