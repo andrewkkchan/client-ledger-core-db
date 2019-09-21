@@ -5,7 +5,8 @@ client-ledger-core-db is Part 2 of 3 Part demo of event sourcing over common web
 ## Quick Start
 ### Step 1
 Log in MariaDB to show the database command line tool.
-'''mysql -u username -p password
+'''
+mysql -u username -p password
 '''
 
 
