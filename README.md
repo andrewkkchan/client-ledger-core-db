@@ -19,6 +19,17 @@ Now you can see the two scripts:
 * schema_and_data.sql: This is for setting up the tables and sourcing empty states.
 * show_result.sql: This is for showing the state during event sourcing, and printing out the log as well.
 
+### Step 3
+In the database command line tool, input
+```
+source {Path}/schema_and_data.sql
+```
+Then you can start the spring boot app.
 
-
+### Step 4
+During event sourcing, in the database command line tool, input repeatedly
+``` 
+source {Path}/show_result.sql
+``` 
+to show the result of states up to the high water mark.
 
