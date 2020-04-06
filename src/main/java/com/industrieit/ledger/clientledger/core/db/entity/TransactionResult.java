@@ -25,6 +25,7 @@ public class TransactionResult {
     @GenericGenerator(name = "uuid2", strategy = "org.hibernate.id.UUIDGenerator")
     private String id;
     private String requestId;
+    @Column(name = "response", length = 5000)
     private String response;
     @CreationTimestamp
     private Timestamp createTime;

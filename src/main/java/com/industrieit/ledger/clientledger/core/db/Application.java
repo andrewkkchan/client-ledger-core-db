@@ -2,8 +2,6 @@ package com.industrieit.ledger.clientledger.core.db;
 
 import com.industrieit.ledger.clientledger.core.db.entity.Account;
 import com.industrieit.ledger.clientledger.core.db.entity.JournalEntry;
-
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.ExitCodeGenerator;
 import org.springframework.boot.SpringApplication;
@@ -19,8 +17,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class Application implements CommandLineRunner {
-    @Value(value = "${auth.domain}")
-    String authDomain;
 
     @Override
     public void run(String... arg0) {
